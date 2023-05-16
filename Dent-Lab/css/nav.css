@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+#logo__imagem {
+    width: 72px;
+    height: auto;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 24px;
+    font-family: var(--texto);
+}
+
+span{
+    color: var(--texto-logo-cor);
+}
+
+.titulo__logo{
+    font-family: var(--texto-logo);
+    font-size: 24px;
+}
+
+.login{
+    background-color: var(--cor-botao);
+    color: var(--cor-branco);
+    padding: 16px;
+    border-radius: 8px; 
+}
+
+@media (max-width: 900px){
+    .menu{
+        display: none;
+    }
+}

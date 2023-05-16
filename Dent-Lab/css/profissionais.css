@@ -1,0 +1,33 @@
+.profissionais{
+    display: flex;
+    background: var(--cor-fundo-section-profissional);
+    margin: 48px;
+}
+
+.img__profissionais{
+    width: 400px;
+    height: auto;
+}
+
+.hgroup__profissionais{
+    width: 600px;
+    margin: auto;
+}
+
+.hgroup__profissionais > h1{
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 900px){
+    .profissionais{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img__profissionais{
+        width: 300px;
+    }
+    .hgroup__profissionais{
+        width: auto;
+        padding: 8px;
+    }
+}
