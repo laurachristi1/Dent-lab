@@ -14,4 +14,4 @@ const firebaseConfig = {
   //cria o objeto de autenticação para que possa usar os métodos
   const auth = firebase.auth();
   //cria o objeto do DB Firestore para que possa usar métodos
-  const db = firebase.firestore
+  const db = firebase.firestore();
